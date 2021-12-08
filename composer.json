@@ -1,0 +1,25 @@
+{
+    "name": "woxiaoyao81/think-image",
+    "description": "The ThinkPHP6 Image Package",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "woxiaoyao",
+            "email": "1458875913@qq.com"
+        }
+    ],
+    "require": {
+        "ext-gd": "*"
+    },
+    "require-dev": {
+        "topthink/framework": "^8.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        }
+    }
+}
