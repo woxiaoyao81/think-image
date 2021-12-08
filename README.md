@@ -18,15 +18,16 @@
 
 ### 基本使用
 支持文件或Http的请求文件
+```php
 $image = \think\Image::open('./image.jpg');
-或者
+//或者
 $image = \think\Image::open(request()->file('image'));
 $image->crop(...)
     ->thumb(...)
     ->water(...)
     ->text(....)
     ->save(..);
-
+```
 ### 具体使用
 > 使用open方法打开图像文件进行相关操作
 ```php
